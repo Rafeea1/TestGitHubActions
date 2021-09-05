@@ -11,6 +11,6 @@ jobs:
    - name: Azure Pipelines execution
      uses: Azure/pipelines@v1
      with:
-      azure-devops-project-url: https://dev.azure.com/clouduserpc4f08460/TestGitHubActions/
+      azure-devops-project-url: https://dev.azure.com/clouduserpc4f08460/TestGitHubActions
       azure-pipeline-name: 'Rafeea1.TestGithubActions'
       azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
