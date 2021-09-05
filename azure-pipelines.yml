@@ -1,6 +1,6 @@
 variables:
   buildConfiguration: 'Release'
-  webappName: 'webapp308844lsj'
+  webappName: 'webapp6pm6rmlqnvnxo-webapp'
 
 stages:
 
@@ -47,7 +47,7 @@ stages:
       artifact: drop
     - task: AzureWebApp@1
       inputs:
-        azureSubscription: 'SP'
+        azureSubscription: 'RafSP'
         appType: 'webAppLinux'
         appName: '$(webappName)'
         package: '$(Pipeline.Workspace)/**/*.zip'
